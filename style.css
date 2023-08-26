@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+
+th {
+  font-weight: 600;
+}
+
+th,
+td {
+  border: 3px solid black;
+  padding: 20px 20px;
+  width: 100px;
+  text-align: left;
+  text-align: center;
+}
+
+td {
+  font-weight: 500;
+}
+
+input[type="checkbox"] {
+  transform: scale(2.2);
+}
+
+#checkboxInput {
+  accent-color: #000;
+  /* filter: hue-rotate(180deg); */
+}
+
+#wider {
+  /* padding-inline: 160px; */
+  width: 700px;
+}
+
+button {
+  padding: 15px 60px;
+  background-color: #274de0;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.top-actions {
+  margin-bottom: 30px;
+}
+
+.top-actions button:not(:last-child) {
+  margin-right: 20px;
+}
+
+.bottom-actions {
+  margin-top: 20px;
+}
+
+.bottomInput:focus {
+  outline: none;
+}
+
+.bottomInput {
+  padding: 13px 10px;
+  border-radius: 10px;
+  border: rgba(128, 128, 128, 0.418) solid 1px;
+  margin-right: 20px;
+}
+
+.bottomInput::placeholder {
+  color: rgba(128, 128, 128, 0.618);
+  font-weight: 500;
+}
+
+#message {
+  color: red;
+  background-color: rgb(230, 167, 167);
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+.hidden {
+  display: none;
+}
